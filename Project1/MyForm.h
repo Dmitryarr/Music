@@ -18,7 +18,7 @@ namespace Project1 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -27,14 +27,14 @@ namespace Project1 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 			mfl = gcnew MyForm1();
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -70,11 +70,11 @@ namespace Project1 {
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column2;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column4;
 	private: System::Windows::Forms::MenuStrip^ menuStrip1;
-	private: System::Windows::Forms::ToolStripMenuItem^ файлToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ сохранитьToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ сохранитьКакToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ открытьToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ выходToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ГґГ Г©Г«ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ Г±Г®ГµГ°Г Г­ГЁГІГјToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ Г±Г®ГµГ°Г Г­ГЁГІГјГЉГ ГЄToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ Г®ГІГЄГ°Г»ГІГјToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ГўГ»ГµГ®Г¤ToolStripMenuItem;
 	private: System::Windows::Forms::OpenFileDialog^ openFileDialog1;
 	private: System::Windows::Forms::SaveFileDialog^ saveFileDialog1;
 	private: System::Windows::Forms::Button^ btnAddSong;
@@ -85,14 +85,14 @@ namespace Project1 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		/// 
 		void InitializeComponent(void) {
@@ -111,11 +111,11 @@ namespace Project1 {
 			this->btnChange = (gcnew System::Windows::Forms::Button());
 			this->btnDeleteEnd = (gcnew System::Windows::Forms::Button());
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
-			this->файлToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->сохранитьToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->сохранитьКакToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->открытьToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->выходToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ГґГ Г©Г«ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->Г±Г®ГµГ°Г Г­ГЁГІГјToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->Г±Г®ГµГ°Г Г­ГЁГІГјГЉГ ГЄToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->Г®ГІГЄГ°Г»ГІГјToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ГўГ»ГµГ®Г¤ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
 			this->saveFileDialog1 = (gcnew System::Windows::Forms::SaveFileDialog());
 			this->btnAddSong = (gcnew System::Windows::Forms::Button());
@@ -140,10 +140,10 @@ namespace Project1 {
 			// 
 			// Column1
 			// 
-			this->Column1->HeaderText = L"Жанр";
+			this->Column1->HeaderText = L"Г†Г Г­Г°";
 			this->Column1->Items->AddRange(gcnew cli::array< System::Object^  >(8) {
-				L"Рок", L"Шансон", L"Классика", L"Инди", L"Реп",
-					L"Хип-хоп", L"Металл", L"Поп"
+				L"ГђГ®ГЄ", L"ГГ Г­Г±Г®Г­", L"ГЉГ«Г Г±Г±ГЁГЄГ ", L"Г€Г­Г¤ГЁ", L"ГђГҐГЇ",
+					L"Г•ГЁГЇ-ГµГ®ГЇ", L"ГЊГҐГІГ Г«Г«", L"ГЏГ®ГЇ"
 			});
 			this->Column1->MinimumWidth = 6;
 			this->Column1->Name = L"Column1";
@@ -153,21 +153,21 @@ namespace Project1 {
 			// 
 			// Column3
 			// 
-			this->Column3->HeaderText = L"Песни";
+			this->Column3->HeaderText = L"ГЏГҐГ±Г­ГЁ";
 			this->Column3->MinimumWidth = 6;
 			this->Column3->Name = L"Column3";
 			this->Column3->Width = 125;
 			// 
 			// Column2
 			// 
-			this->Column2->HeaderText = L"Исполнитель";
+			this->Column2->HeaderText = L"Г€Г±ГЇГ®Г«Г­ГЁГІГҐГ«Гј";
 			this->Column2->MinimumWidth = 6;
 			this->Column2->Name = L"Column2";
 			this->Column2->Width = 125;
 			// 
 			// Column4
 			// 
-			this->Column4->HeaderText = L"Длительность";
+			this->Column4->HeaderText = L"Г„Г«ГЁГІГҐГ«ГјГ­Г®Г±ГІГј";
 			this->Column4->MinimumWidth = 6;
 			this->Column4->Name = L"Column4";
 			this->Column4->Width = 125;
@@ -192,7 +192,7 @@ namespace Project1 {
 			this->btnDeleteAt->Name = L"btnDeleteAt";
 			this->btnDeleteAt->Size = System::Drawing::Size(157, 57);
 			this->btnDeleteAt->TabIndex = 1;
-			this->btnDeleteAt->Text = L"Удалить выделенное";
+			this->btnDeleteAt->Text = L"Г“Г¤Г Г«ГЁГІГј ГўГ»Г¤ГҐГ«ГҐГ­Г­Г®ГҐ";
 			this->btnDeleteAt->UseVisualStyleBackColor = true;
 			this->btnDeleteAt->Click += gcnew System::EventHandler(this, &MyForm::btnDeleteAt_Click);
 			// 
@@ -204,7 +204,7 @@ namespace Project1 {
 			this->btnSearch->Name = L"btnSearch";
 			this->btnSearch->Size = System::Drawing::Size(157, 74);
 			this->btnSearch->TabIndex = 2;
-			this->btnSearch->Text = L"Найти по исполнителю";
+			this->btnSearch->Text = L"ГЌГ Г©ГІГЁ ГЇГ® ГЁГ±ГЇГ®Г«Г­ГЁГІГҐГ«Гѕ";
 			this->btnSearch->UseVisualStyleBackColor = true;
 			this->btnSearch->Click += gcnew System::EventHandler(this, &MyForm::btnSearch_Click);
 			// 
@@ -216,7 +216,7 @@ namespace Project1 {
 			this->btnSort->Name = L"btnSort";
 			this->btnSort->Size = System::Drawing::Size(157, 80);
 			this->btnSort->TabIndex = 3;
-			this->btnSort->Text = L"Сортировка по длительности";
+			this->btnSort->Text = L"Г‘Г®Г°ГІГЁГ°Г®ГўГЄГ  ГЇГ® Г¤Г«ГЁГІГҐГ«ГјГ­Г®Г±ГІГЁ";
 			this->btnSort->UseVisualStyleBackColor = true;
 			this->btnSort->Click += gcnew System::EventHandler(this, &MyForm::btnSort_Click);
 			// 
@@ -228,7 +228,7 @@ namespace Project1 {
 			this->btnAddat->Name = L"btnAddat";
 			this->btnAddat->Size = System::Drawing::Size(157, 89);
 			this->btnAddat->TabIndex = 4;
-			this->btnAddat->Text = L"Вставить перед выделенным";
+			this->btnAddat->Text = L"Г‚Г±ГІГ ГўГЁГІГј ГЇГҐГ°ГҐГ¤ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»Г¬";
 			this->btnAddat->UseVisualStyleBackColor = true;
 			this->btnAddat->Click += gcnew System::EventHandler(this, &MyForm::btnAddat_Click);
 			// 
@@ -240,7 +240,7 @@ namespace Project1 {
 			this->tbSearch->Name = L"tbSearch";
 			this->tbSearch->Size = System::Drawing::Size(130, 29);
 			this->tbSearch->TabIndex = 5;
-			this->tbSearch->Text = L"Найти";
+			this->tbSearch->Text = L"ГЌГ Г©ГІГЁ";
 			// 
 			// btnClear
 			// 
@@ -250,7 +250,7 @@ namespace Project1 {
 			this->btnClear->Name = L"btnClear";
 			this->btnClear->Size = System::Drawing::Size(157, 45);
 			this->btnClear->TabIndex = 6;
-			this->btnClear->Text = L"Очистка";
+			this->btnClear->Text = L"ГЋГ·ГЁГ±ГІГЄГ ";
 			this->btnClear->UseVisualStyleBackColor = true;
 			this->btnClear->Click += gcnew System::EventHandler(this, &MyForm::btnClear_Click);
 			// 
@@ -262,7 +262,7 @@ namespace Project1 {
 			this->btnChange->Name = L"btnChange";
 			this->btnChange->Size = System::Drawing::Size(157, 45);
 			this->btnChange->TabIndex = 7;
-			this->btnChange->Text = L"Редактировать";
+			this->btnChange->Text = L"ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ ГІГј";
 			this->btnChange->UseVisualStyleBackColor = true;
 			this->btnChange->Click += gcnew System::EventHandler(this, &MyForm::btnChange_Click);
 			// 
@@ -280,50 +280,50 @@ namespace Project1 {
 			// 
 			// menuStrip1
 			// 
-			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->файлToolStripMenuItem });
+			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->ГґГ Г©Г«ToolStripMenuItem });
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
 			this->menuStrip1->Size = System::Drawing::Size(933, 24);
 			this->menuStrip1->TabIndex = 10;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
-			// файлToolStripMenuItem
+			// ГґГ Г©Г«ToolStripMenuItem
 			// 
-			this->файлToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(4) {
-				this->сохранитьToolStripMenuItem,
-					this->сохранитьКакToolStripMenuItem, this->открытьToolStripMenuItem, this->выходToolStripMenuItem
+			this->ГґГ Г©Г«ToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(4) {
+				this->Г±Г®ГµГ°Г Г­ГЁГІГјToolStripMenuItem,
+					this->Г±Г®ГµГ°Г Г­ГЁГІГјГЉГ ГЄToolStripMenuItem, this->Г®ГІГЄГ°Г»ГІГјToolStripMenuItem, this->ГўГ»ГµГ®Г¤ToolStripMenuItem
 			});
-			this->файлToolStripMenuItem->Name = L"файлToolStripMenuItem";
-			this->файлToolStripMenuItem->Size = System::Drawing::Size(48, 20);
-			this->файлToolStripMenuItem->Text = L"файл";
+			this->ГґГ Г©Г«ToolStripMenuItem->Name = L"ГґГ Г©Г«ToolStripMenuItem";
+			this->ГґГ Г©Г«ToolStripMenuItem->Size = System::Drawing::Size(48, 20);
+			this->ГґГ Г©Г«ToolStripMenuItem->Text = L"ГґГ Г©Г«";
 			// 
-			// сохранитьToolStripMenuItem
+			// Г±Г®ГµГ°Г Г­ГЁГІГјToolStripMenuItem
 			// 
-			this->сохранитьToolStripMenuItem->Name = L"сохранитьToolStripMenuItem";
-			this->сохранитьToolStripMenuItem->Size = System::Drawing::Size(152, 22);
-			this->сохранитьToolStripMenuItem->Text = L"сохранить";
-			this->сохранитьToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::сохранитьToolStripMenuItem_Click);
+			this->Г±Г®ГµГ°Г Г­ГЁГІГјToolStripMenuItem->Name = L"Г±Г®ГµГ°Г Г­ГЁГІГјToolStripMenuItem";
+			this->Г±Г®ГµГ°Г Г­ГЁГІГјToolStripMenuItem->Size = System::Drawing::Size(152, 22);
+			this->Г±Г®ГµГ°Г Г­ГЁГІГјToolStripMenuItem->Text = L"Г±Г®ГµГ°Г Г­ГЁГІГј";
+			this->Г±Г®ГµГ°Г Г­ГЁГІГјToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::Г±Г®ГµГ°Г Г­ГЁГІГјToolStripMenuItem_Click);
 			// 
-			// сохранитьКакToolStripMenuItem
+			// Г±Г®ГµГ°Г Г­ГЁГІГјГЉГ ГЄToolStripMenuItem
 			// 
-			this->сохранитьКакToolStripMenuItem->Name = L"сохранитьКакToolStripMenuItem";
-			this->сохранитьКакToolStripMenuItem->Size = System::Drawing::Size(152, 22);
-			this->сохранитьКакToolStripMenuItem->Text = L"сохранить как";
-			this->сохранитьКакToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::сохранитьКакToolStripMenuItem_Click);
+			this->Г±Г®ГµГ°Г Г­ГЁГІГјГЉГ ГЄToolStripMenuItem->Name = L"Г±Г®ГµГ°Г Г­ГЁГІГјГЉГ ГЄToolStripMenuItem";
+			this->Г±Г®ГµГ°Г Г­ГЁГІГјГЉГ ГЄToolStripMenuItem->Size = System::Drawing::Size(152, 22);
+			this->Г±Г®ГµГ°Г Г­ГЁГІГјГЉГ ГЄToolStripMenuItem->Text = L"Г±Г®ГµГ°Г Г­ГЁГІГј ГЄГ ГЄ";
+			this->Г±Г®ГµГ°Г Г­ГЁГІГјГЉГ ГЄToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::Г±Г®ГµГ°Г Г­ГЁГІГјГЉГ ГЄToolStripMenuItem_Click);
 			// 
-			// открытьToolStripMenuItem
+			// Г®ГІГЄГ°Г»ГІГјToolStripMenuItem
 			// 
-			this->открытьToolStripMenuItem->Name = L"открытьToolStripMenuItem";
-			this->открытьToolStripMenuItem->Size = System::Drawing::Size(152, 22);
-			this->открытьToolStripMenuItem->Text = L"открыть";
-			this->открытьToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::открытьToolStripMenuItem_Click);
+			this->Г®ГІГЄГ°Г»ГІГјToolStripMenuItem->Name = L"Г®ГІГЄГ°Г»ГІГјToolStripMenuItem";
+			this->Г®ГІГЄГ°Г»ГІГјToolStripMenuItem->Size = System::Drawing::Size(152, 22);
+			this->Г®ГІГЄГ°Г»ГІГјToolStripMenuItem->Text = L"Г®ГІГЄГ°Г»ГІГј";
+			this->Г®ГІГЄГ°Г»ГІГјToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::Г®ГІГЄГ°Г»ГІГјToolStripMenuItem_Click);
 			// 
-			// выходToolStripMenuItem
+			// ГўГ»ГµГ®Г¤ToolStripMenuItem
 			// 
-			this->выходToolStripMenuItem->Name = L"выходToolStripMenuItem";
-			this->выходToolStripMenuItem->Size = System::Drawing::Size(152, 22);
-			this->выходToolStripMenuItem->Text = L"выход";
-			this->выходToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::выходToolStripMenuItem_Click);
+			this->ГўГ»ГµГ®Г¤ToolStripMenuItem->Name = L"ГўГ»ГµГ®Г¤ToolStripMenuItem";
+			this->ГўГ»ГµГ®Г¤ToolStripMenuItem->Size = System::Drawing::Size(152, 22);
+			this->ГўГ»ГµГ®Г¤ToolStripMenuItem->Text = L"ГўГ»ГµГ®Г¤";
+			this->ГўГ»ГµГ®Г¤ToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::ГўГ»ГµГ®Г¤ToolStripMenuItem_Click);
 			// 
 			// openFileDialog1
 			// 
@@ -337,7 +337,7 @@ namespace Project1 {
 			this->btnAddSong->Name = L"btnAddSong";
 			this->btnAddSong->Size = System::Drawing::Size(157, 40);
 			this->btnAddSong->TabIndex = 11;
-			this->btnAddSong->Text = L"Добавить";
+			this->btnAddSong->Text = L"Г„Г®ГЎГ ГўГЁГІГј";
 			this->btnAddSong->UseVisualStyleBackColor = true;
 			this->btnAddSong->Click += gcnew System::EventHandler(this, &MyForm::btnAddSong_Click);
 			// 
@@ -349,7 +349,7 @@ namespace Project1 {
 			this->btnAddatSong->Name = L"btnAddatSong";
 			this->btnAddatSong->Size = System::Drawing::Size(157, 34);
 			this->btnAddatSong->TabIndex = 12;
-			this->btnAddatSong->Text = L"Вставить";
+			this->btnAddatSong->Text = L"Г‚Г±ГІГ ГўГЁГІГј";
 			this->btnAddatSong->UseVisualStyleBackColor = true;
 			this->btnAddatSong->Click += gcnew System::EventHandler(this, &MyForm::btnAddatSong_Click);
 			// 
@@ -458,16 +458,25 @@ namespace Project1 {
 		for (int i = dgvMusic->RowCount - 1; i > 0; i--) {
 			for (int j = 0; j < i; j++) {
 				if (Convert::ToSingle(dgvMusic[3, j]->Value) < Convert::ToSingle(dgvMusic[3, j + 1]->Value)) {
+				
+				        //if (Convert::ToSingle(dgvMusic[3, j]->Value) == false || Convert::ToSingle(dgvMusic[3, j]->Value) < 0)
+					//	return;
+					//for (int k = 0; k < 3; k++) {
+					//	String^ temp = Convert::ToString(dgvMusic[k, j]->Value);
+					//	dgvMusic[k, j]->Value = dgvMusic[k, j + 1]->Value;
+					//	dgvMusic[k, j + 1]->Value = temp;
+					//}
+					//Single^ temp = Convert::ToSingle(dgvMusic[3, j]->Value);
+					//dgvMusic[3, j]->Value = dgvMusic[3, j + 1]->Value;
+					//dgvMusic[3, j + 1]->Value = temp;
+				
 					if (Convert::ToSingle(dgvMusic[3, j]->Value) == false || Convert::ToSingle(dgvMusic[3, j]->Value) < 0)
 						return;
-					for (int k = 0; k < 3; k++) {
+					for (int k = 0; k < 4; k++) {
 						String^ temp = Convert::ToString(dgvMusic[k, j]->Value);
 						dgvMusic[k, j]->Value = dgvMusic[k, j + 1]->Value;
 						dgvMusic[k, j + 1]->Value = temp;
 					}
-					Single^ temp = Convert::ToSingle(dgvMusic[3, j]->Value);
-					dgvMusic[3, j]->Value = dgvMusic[3, j + 1]->Value;
-					dgvMusic[3, j + 1]->Value = temp;
 				}
 			}
 		}
@@ -476,7 +485,7 @@ namespace Project1 {
 		if (dgvMusic->RowCount == 0)
 			return;
 		String^ nameone = tbSearch->Text;
-		String^ s = "Исполнитель(и) с именем \"" + tbSearch->Text + "\": " + "\n";
+		String^ s = "Г€Г±ГЇГ®Г«Г­ГЁГІГҐГ«Гј(ГЁ) Г± ГЁГ¬ГҐГ­ГҐГ¬ \"" + tbSearch->Text + "\": " + "\n";
 		bool ok = false;
 		for (int i = 0; i < dgvMusic->RowCount; i++) {
 			if (dgvMusic[0, i]->Value != nullptr && dgvMusic[1, i]->Value != nullptr && dgvMusic[2, i]->Value != nullptr && dgvMusic[3, i]->Value != nullptr) {
@@ -490,10 +499,10 @@ namespace Project1 {
 			}
 		}
 		if (ok == false)
-			s = "Исполнитель с именем \"" + tbSearch->Text + "\" не найден.";
+			s = "Г€Г±ГЇГ®Г«Г­ГЁГІГҐГ«Гј Г± ГЁГ¬ГҐГ­ГҐГ¬ \"" + tbSearch->Text + "\" Г­ГҐ Г­Г Г©Г¤ГҐГ­.";
 		MessageBox::Show(s);
 	}
-	private: System::Void сохранитьToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void Г±Г®ГµГ°Г Г­ГЁГІГјToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 		if (dgvMusic->RowCount == 0)
 			return;
 		int n1 = dgvMusic->RowCount;
@@ -522,7 +531,7 @@ namespace Project1 {
 		
 		
 		if (open == true) {
-			if (saveFileDialog1->ShowDialog() == System::Windows::Forms::DialogResult::OK) {
+			//if (saveFileDialog1->ShowDialog() == System::Windows::Forms::DialogResult::OK) {
 				fileName = openFileDialog1->FileName;
 				IO::StreamWriter^ sw = gcnew IO::StreamWriter(fileName);
 				for (int i = 0; i < dgvMusic->RowCount; i++) {
@@ -534,7 +543,7 @@ namespace Project1 {
 				}
 				sw->Close();
 				return;
-			}
+			//}
 		}
 				
 		if (save == true) {
@@ -553,7 +562,7 @@ namespace Project1 {
 			}
 		}
 	}
-private: System::Void сохранитьКакToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void Г±Г®ГµГ°Г Г­ГЁГІГјГЉГ ГЄToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (dgvMusic->RowCount == 0)
 		return;
 	int n1 = dgvMusic->RowCount;
@@ -578,7 +587,7 @@ private: System::Void сохранитьКакToolStripMenuItem_Click(System::Object^ sender
 		open = false;
 	}
 }
-private: System::Void открытьToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void Г®ГІГЄГ°Г»ГІГјToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (openFileDialog1->ShowDialog() == System::Windows::Forms::DialogResult::OK) {
 		String^ filename = openFileDialog1->FileName;
 		IO::StreamReader^ temp = IO::File::OpenText(filename);
@@ -612,7 +621,7 @@ private: System::Void открытьToolStripMenuItem_Click(System::Object^ sender, Sys
 		   mfl->setDuration("");
 	   }
 
-	private: System::Void выходToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void ГўГ»ГµГ®Г¤ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 		Application::Exit();
 	}
 
